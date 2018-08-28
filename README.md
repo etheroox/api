@@ -1,9 +1,10 @@
 # Etheroox API 
 ForkDelta's API gives you access to ticker information, orders, trades, deposits, withdrawals, and anything else available through our website. You can also interact directly with the smart contract to get trades, deposits, and withdrawals. For an example of directly working with the contract, take a look at our contract_observer.py. ForkDelta's orderbook is primarily stored offchain, but can be accessed with our public interface or through this API. To learn more about our order system, take a look at our backend repository.
-# Websocket Server
-ForkDelta's API is socket.io based. The API utilizes SSL on all connections to keep your data private. You can connect to ForkDelta's API through this endpoint:
 
-    https://api.forkdelta.com
+# API Endpoint
+ The API utilizes SSL on all connections to keep your data private. You can connect to EtheRoox's API through this endpoint:
+ https://api.etheroox.com
+ 
 # Rate Limiting
 
 Please try to limit your calls to the API to a reasonable frequency.
